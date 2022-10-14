@@ -1,0 +1,22 @@
+.news-item {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid white;
+    border-radius: 4%;
+    padding: 5px;
+    margin: 2rem 10rem
+}
+
+.news-item img {
+    width: 700px;
+    height: 400px
+}
+
+@media  screen and (max-width: 1000px) {
+    .news-item img {
+        width: 350px;
+        height: 200px;
+    }
+}
