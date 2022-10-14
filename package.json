@@ -1,7 +1,7 @@
 {
   "name": "news-app",
   "version": "0.1.0",
-  "homepage": "https://bermudd95.github.io/News-app",
+  "homepage": "https://bermudd95.github.io/News-application",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
@@ -22,8 +22,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
